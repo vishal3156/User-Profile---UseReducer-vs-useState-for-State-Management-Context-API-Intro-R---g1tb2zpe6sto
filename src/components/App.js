@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div id="main">
       <UserContext.Provider
-        value={{name: 'Newton', age:3}}
+        value={{name:"Newton", age:3}}
       >
        <UserProfile />
       </UserContext.Provider>      
