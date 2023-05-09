@@ -3,7 +3,7 @@ import React from 'react'
 import { UserContext } from "./App"
 
 const UserProfile = () =>{
-  const {name, age} = useContext(userContext)
+  const {name, age} = useContext(UserContext)
   return(
     <>
       <h1 id="name">Name:- {name}</h1>
